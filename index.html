@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8" />
+    <title>콩이네 댕댕샵 - 애견용품 전문점</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+    <!-- 헤더 -->
+    <header class="header">
+        <div class="logo">
+            🐶 콩이네 댕댕샵
+        </div>
+        <nav class="nav">
+            <a href="#categories">카테고리</a>
+            <a href="#gallery">상품 사진</a>
+            <a href="#map">오시는 길</a>
+            <a href="#contact">문의</a>
+        </nav>
+    </header>
+
+    <!-- 히어로 섹션 -->
+    <section class="hero">
+        <div class="hero-content">
+            <h1>우리 댕댕이의 모든 것, 콩이네 댕댕샵</h1>
+            <p>사료부터 장난감, 산책용품까지 한 번에!<br />대구 중구 동성로 1번지에서 만나요 🐾</p>
+            <a href="#categories" class="btn-primary">애견용품 구경하기</a>
+        </div>
+        <div class="hero-image">
+            <img src="https://images.pexels.com/photos/1108099/pexels-photo-1108099.jpeg?auto=compress&cs=tinysrgb&w=800" alt="귀여운 강아지 사진" />
+        </div>
+    </section>
+
+    <!-- 카테고리 섹션 -->
+    <section id="categories" class="section">
+        <h2 class="section-title">애견용품 카테고리</h2>
+        <p class="section-subtitle">콩이네 댕댕샵에서 인기 많은 필수템들이에요!</p>
+        <div class="cards-grid">
+            <article class="card">
+                <h3>사료 · 간식</h3>
+                <p>연령·체중별 맞춤 사료와 건강 간식들을 만나보세요.</p>
+            </article>
+            <article class="card">
+                <h3>장난감</h3>
+                <p>공, 삑삑이, 노즈워크 매트 등 스트레스 해소에 딱 좋아요.</p>
+            </article>
+            <article class="card">
+                <h3>하네스 · 리드줄</h3>
+                <p>안전하고 예쁜 산책용 하네스와 리드줄을 준비했어요.</p>
+            </article>
+            <article class="card">
+                <h3>미용 · 위생용품</h3>
+                <p>샴푸, 브러시, 패드, 치약 등 위생 필수템이 가득합니다.</p>
+            </article>
+            <article class="card">
+                <h3>의류 · 액세서리</h3>
+                <p>계절별 의류, 패션하네스, 목걸이로 우리 댕댕이 꾸며줘요.</p>
+            </article>
+            <article class="card">
+                <h3>하우스 · 침대</h3>
+                <p>폭신한 쿠션과 하우스로 아늑한 댕댕이 공간을 만들어주세요.</p>
+            </article>
+        </div>
+    </section>
+
+    <!-- 사진 갤러리 섹션 -->
+    <section id="gallery" class="section section-alt">
+        <h2 class="section-title">상품 사진</h2>
+        <p class="section-subtitle">매장 분위기와 상품 이미지를 살짝 보여드릴게요 😊</p>
+        <div class="gallery-grid">
+            <div class="gallery-item">
+                <img src="https://images.pexels.com/photos/3299905/pexels-photo-3299905.jpeg?auto=compress&cs=tinysrgb&w=800" alt="강아지 사료와 용품" />
+            </div>
+            <div class="gallery-item">
+                <img src="https://images.pexels.com/photos/4588018/pexels-photo-4588018.jpeg?auto=compress&cs=tinysrgb&w=800" alt="강아지 장난감" />
+            </div>
+            <div class="gallery-item">
+                <img src="https://images.pexels.com/photos/5731868/pexels-photo-5731868.jpeg?auto=compress&cs=tinysrgb&w=800" alt="강아지 침대와 하우스" />
+            </div>
+            <div class="gallery-item">
+                <img src="https://images.pexels.com/photos/5731909/pexels-photo-5731909.jpeg?auto=compress&cs=tinysrgb&w=800" alt="애견용품 진열대" />
+            </div>
+        </div>
+    </section>
+
+    <!-- 지도 섹션 -->
+    <section id="map" class="section">
+        <h2 class="section-title">오시는 길</h2>
+        <p class="section-subtitle">
+            📍 대구광역시 중구 동성로 1번지 · 콩이네 댕댕샵
+        </p>
+        <div class="map-container">
+            <!-- 간단한 Google Maps Embed (주소 검색 기반) -->
+            <iframe
+                src="https://www.google.com/maps?q=대구광역시%20중구%20동성로%201&output=embed"
+                width="100%"
+                height="100%"
+                style="border:0;"
+                allowfullscreen=""
+                loading="lazy"
+                referrerpolicy="no-referrer-when-downgrade">
+            </iframe>
+        </div>
+    </section>
+
+    <!-- 문의/푸터 -->
+    <section id="contact" class="section section-alt">
+        <h2 class="section-title">문의 및 연락</h2>
+        <p class="section-subtitle">
+            전화, 방문, 채팅으로 편하게 문의 주세요!
+        </p>
+        <div class="contact-info">
+            <p>📞 전화: 053-000-0000 (예시)</p>
+            <p>🕒 영업시간: 매일 11:00 ~ 21:00</p>
+            <p>📍 주소: 대구광역시 중구 동성로 1번지, 콩이네 댕댕샵</p>
+            <p>💬 웹페이지 오른쪽 아래 챗봇으로도 간단 상담이 가능합니다.</p>
+        </div>
+    </section>
+
+    <footer class="footer">
+        <p>© 2025 콩이네 댕댕샵 · All Rights Reserved.</p>
+    </footer>
+
+    <!-- 챗봇 위젯 -->
+    <div class="chatbot-toggle" id="chatbotToggle">
+        💬 상담하기
+    </div>
+    <div class="chatbot-window" id="chatbotWindow">
+        <div class="chatbot-header">
+            <span>콩이네 댕댕샵 챗봇</span>
+            <button id="chatbotClose" aria-label="챗봇 닫기">✖</button>
+        </div>
+        <div class="chatbot-messages" id="chatbotMessages">
+            <!-- JS에서 메시지를 추가 -->
+        </div>
+        <div class="chatbot-input-area">
+            <input
+                type="text"
+                id="chatbotInput"
+                placeholder="메시지를 입력하세요..."
+            />
+            <button id="chatbotSend">전송</button>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
+
